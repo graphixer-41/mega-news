@@ -3,6 +3,85 @@
     padding: 0%;
     font-family: 'Poppins', sans-serif;
 }
+/* ---------------- Home Style--------------------- */
+ .head-img{
+    margin-left: 150px;
+    background-color: rgb(238, 235, 235);
+    width: 1000px;
+    height: 700px;
+    background-image: url(images/picc-1.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+ 
+.head-img h2{
+    color: white;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 400px;
+}
+.time{
+    margin-left: 35px;
+    color: white;
+    font-size: 15px;
+}
+.fa-clock{
+    margin-right: 5px;
+}
+.time p{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.ccn{
+    padding-top: 8px;
+}
+.right-icon{
+    justify-content: space-between;
+}
+.right-icon p{
+    margin-top: 55px;
+    font-size: 20px;
+    margin-right: 60px;
+}
+#views{
+    margin-top: 40px;
+}
+.fa-eye{
+    margin-right: 8px;
+}
+.fa-share{
+    margin-right: 8px;
+}
+.fa-comment{
+    margin-right: 8px;
+}
+.carrd{
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 137, 137);
+    padding: 10px;
+}
+.carrd-latest{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.short-by-latest h1{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 60px;
+
+}
+.container-latest{
+    width: 1000px;
+    height: 700px;
+    margin-left: 150PX;
+}
+.Trending{
+    margin-left: 150px;
+     
+}
+
+/* ---------------End Home Style------------------- */
 .mega{
     font-weight: 700;
     font-size: 25px;
@@ -28,7 +107,7 @@
 }
 .short-by{
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 10px;  
 }
  /*---------------------------------------------  */
 .author-profile-img{
@@ -42,10 +121,6 @@
 .publish-date{
     margin-top: -20px;
     font-size: 15px;
-}
-.sort-btn{
-    margin-left: 20px;
-    margin-top: -8px;
 }
 .trending-btn{
     margin-top: -8px;
