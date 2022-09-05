@@ -3,26 +3,17 @@
     padding: 0%;
     font-family: 'Poppins', sans-serif;
 }
- 
-.top-nav{
-    display: flex;
-    justify-content: space-between;
+.mega{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(231, 43, 43)
 }
-.top-nav ul{
-    list-style: none;
-    display: flex;
-}
-.top-nav ul li{
-    margin-left: 40px;
-}
-.news-list ul{
-    margin-top: 20px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-.news-list ul li{
-    cursor: pointer;
+.news{
+    font-size: 23px;
+    color: white;
+    background-color: rgb(231, 43, 43);
+    padding: 0 5px;
+    border-radius: 5px;
 }
 .four-items h4{
     margin-top: 30px;
@@ -30,61 +21,105 @@
     border-radius: 15px;
     padding: 15px 20px;
     background-color: rgb(255, 235, 235);
-}
-.short-section{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
+} 
 .dropdown-list{
     display: flex;
     margin-top: 30px;
 }
 .short-by{
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: 10px;
 }
-.right-list ul{
-    list-style: none;
-    display: flex;
+ /*---------------------------------------------  */
+.author-profile-img{
+    width: 35px;
+    border-radius: 50%;
 }
-.right-list ul li{
-    margin-right: 40px;
-    margin-top: 30px;
+.author-name{
+    font-size: 20px;
+    font-weight: 500;
 }
-.img{
-    display: flex;
+.publish-date{
+    margin-top: -20px;
+    font-size: 15px;
 }
-.img img{
-    width: 50px;
+.sort-btn{
+    margin-left: 20px;
+    margin-top: -8px;
 }
-.img h5{
-    margin-left: 15px;
-    margin-top: 20px;
+.trending-btn{
+    margin-top: -8px;
 }
-.user-details{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollmenu a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.read-more{
+    text-decoration: none;
 }
 .fa-eye{
     margin-top: 25px;
-    margin-right: 5px;
 }
 .fa-star{
     margin-top: 25px;
 }
-.fa-arrow-right{
-    margin-top: 25px;
+.views{
+    margin-left: 5px;
+    margin-top: 22px;
 }
-.footter{
-    margin-bottom: 50px;
-    margin-top: 100px;
+.rating{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+#humble{
     text-align: center;
+    color: white;
 }
-.section-2{
-    margin-top: 50px;
+.footer p{
+    color: white;
+    font-size: 15px;
 }
-.sec-3{
-     margin-top: 100px;
+.footer h2{
+    color: white;
+    font-size: 20px;
 }
+.footer{
+        text-align: center;
+        background-color: rgb(228, 21, 73);
+        margin-top: 100px;
+        padding-top: 20px;
+        padding: 60px;
+
+        
+        
+
+}
+
+/* ----------------- Responsive for mobile  -------------------------- */
+
+@media only screen and (max-width: 500px) {
+    .mobile-view{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-click-icon i{
+    color: red;
+    margin-top: 30px;
+}
+.btn-flex {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+} 
